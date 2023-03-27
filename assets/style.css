@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    min-height: 0;
+    background-color: #006CFA;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+[class*="col"] {
+    min-height: 0;
+    background-color: #006CFA;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+.green{
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+/* Second Container */
+
+.second,.third{
+    padding: 1.5rem 0;
+}
+
+._2,._3{
+    height: 52px;
+}
+
